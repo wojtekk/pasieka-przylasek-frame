@@ -1,0 +1,23 @@
+{
+  "name": "pasieka-przylasek-frame",
+  "description": "Frame to present Pasieka Przylasek website",
+  "version": "1.0.0",
+  "author": "Wojciech Krawczyk <wojtekk@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wojtekk/pasieka-przylasek-frame.git"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "deploy": "gcloud app deploy",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "4.15.4"
+  },
+  "devDependencies": {
+    "@google-cloud/nodejs-repo-tools": "1.4.16"
+  }
+}
